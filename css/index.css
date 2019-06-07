@@ -106,7 +106,7 @@ section {
   display: block;
 }
 body {
-  background-color: #F8F8F8;
+  background-color: #eee4d7;
   line-height: 1;
 }
 @media (max-width: 500px) {
@@ -185,8 +185,8 @@ p {
 .box-properties {
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #ececec;
-  box-shadow: 0 5px 5px 0px #303030;
+  background-color: #dbdbec;
+  box-shadow: 1px 1px 6px 0px #303030;
 }
 .middle-content-box-properties {
   width: 49.5%;
@@ -226,8 +226,8 @@ p {
 .container header nav {
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #ececec;
-  box-shadow: 0 5px 5px 0px #303030;
+  background-color: #dbdbec;
+  box-shadow: 1px 1px 6px 0px #303030;
   text-align: center;
   width: 50%;
   height: 80%;
@@ -267,8 +267,8 @@ p {
 .container .top-content {
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #ececec;
-  box-shadow: 0 5px 5px 0px #303030;
+  background-color: #dbdbec;
+  box-shadow: 1px 1px 6px 0px #303030;
   width: 100%;
   height: auto;
   padding-top: 7%;
@@ -292,7 +292,7 @@ p {
   margin: auto;
   margin-left: 1.5%;
   margin-right: 1.5%;
-  background-color: #F8F8F8;
+  background-color: rgba(255, 241, 227, 0.692);
   border-radius: 8px;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -316,7 +316,7 @@ p {
     width: 100%;
     margin: 0;
     border-radius: 0px;
-    background-color: #ececec;
+    background-color: rgba(255, 241, 227, 0.692);
   }
 }
 .container .top-content .left-content h1 {
@@ -395,8 +395,8 @@ p {
   margin-top: 1%;
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #ececec;
-  box-shadow: 0 5px 5px 0px #303030;
+  background-color: #dbdbec;
+  box-shadow: 1px 1px 6px 0px #303030;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -430,7 +430,7 @@ p {
 }
 .container .middle-content .technologies .tech-images img:hover {
   transform: scale(1.2);
-  background: lightgrey;
+  background: #ececec;
   border-radius: 10px;
 }
 .container .middle-content .technologies .tech-images #html5 {
@@ -510,8 +510,8 @@ p {
   margin-top: 1%;
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #ececec;
-  box-shadow: 0 5px 5px 0px #303030;
+  background-color: #dbdbec;
+  box-shadow: 1px 1px 6px 0px #303030;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -550,7 +550,7 @@ p {
 .container .middle-content .education .schools #lambda-school {
   width: 47%;
   height: 46%;
-  background-color: #F8F8F8;
+  background-color: rgba(255, 241, 227, 0.692);
   border-radius: 8px;
 }
 @media (max-width: 500px) {
@@ -563,7 +563,7 @@ p {
 .container .middle-content .education .schools #rcbc {
   width: 47%;
   height: 46%;
-  background-color: #F8F8F8;
+  background-color: rgba(255, 241, 227, 0.692);
   border-radius: 8px;
 }
 @media (max-width: 500px) {
@@ -576,7 +576,7 @@ p {
 .container .middle-content .education .schools #certs {
   width: 96%;
   height: 49%;
-  background-color: #F8F8F8;
+  background-color: rgba(255, 241, 227, 0.692);
   border-radius: 8px;
 }
 @media (max-width: 500px) {
@@ -612,8 +612,8 @@ p {
 .container .work-history {
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #ececec;
-  box-shadow: 0 5px 5px 0px #303030;
+  background-color: #dbdbec;
+  box-shadow: 1px 1px 6px 0px #303030;
   width: 100%;
   height: auto;
   margin-top: 10px;
@@ -671,7 +671,7 @@ p {
   backface-visibility: hidden;
 }
 .container .work-history .work-container #work1 .work1-inner .work1-front {
-  background-color: #ffffff;
+  background-color: rgba(255, 241, 227, 0.692);
   color: black;
   border-radius: 10px;
 }
@@ -709,8 +709,8 @@ p {
 footer {
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #ececec;
-  box-shadow: 0 5px 5px 0px #303030;
+  background-color: #dbdbec;
+  box-shadow: 1px 1px 6px 0px #303030;
   margin-top: 10px;
   margin-bottom: 10%;
   width: 100%;
