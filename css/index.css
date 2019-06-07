@@ -185,7 +185,7 @@ p {
 .box-properties {
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #E8E8E8;
+  background-color: #ececec;
   box-shadow: 0 5px 5px 0px #303030;
 }
 .middle-content-box-properties {
@@ -226,7 +226,7 @@ p {
 .container header nav {
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #E8E8E8;
+  background-color: #ececec;
   box-shadow: 0 5px 5px 0px #303030;
   text-align: center;
   width: 50%;
@@ -267,7 +267,7 @@ p {
 .container .top-content {
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #E8E8E8;
+  background-color: #ececec;
   box-shadow: 0 5px 5px 0px #303030;
   width: 100%;
   height: auto;
@@ -296,6 +296,7 @@ p {
   border-radius: 8px;
   padding-top: 1%;
   padding-bottom: 1%;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
 }
 @keyframes bounceIn {
   0% {
@@ -315,7 +316,7 @@ p {
     width: 100%;
     margin: 0;
     border-radius: 0px;
-    background-color: #E8E8E8;
+    background-color: #ececec;
   }
 }
 .container .top-content .left-content h1 {
@@ -394,7 +395,7 @@ p {
   margin-top: 1%;
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #E8E8E8;
+  background-color: #ececec;
   box-shadow: 0 5px 5px 0px #303030;
   text-align: center;
   display: flex;
@@ -509,7 +510,7 @@ p {
   margin-top: 1%;
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #E8E8E8;
+  background-color: #ececec;
   box-shadow: 0 5px 5px 0px #303030;
   text-align: center;
   display: flex;
@@ -542,6 +543,9 @@ p {
   .container .middle-content .education .schools {
     flex-direction: column;
   }
+}
+.container .middle-content .education .schools div {
+  box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.2);
 }
 .container .middle-content .education .schools #lambda-school {
   width: 47%;
@@ -584,6 +588,7 @@ p {
 }
 .container .middle-content .education .schools #certs .list-of-certs {
   width: 100%;
+  box-shadow: none;
 }
 .container .middle-content .education .schools #certs .list-of-certs ul {
   margin-top: 3%;
@@ -607,7 +612,7 @@ p {
 .container .work-history {
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #E8E8E8;
+  background-color: #ececec;
   box-shadow: 0 5px 5px 0px #303030;
   width: 100%;
   height: auto;
@@ -654,7 +659,7 @@ p {
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 .container .work-history .work-container #work1 .work1-inner .work1-front,
@@ -676,6 +681,9 @@ p {
   transform: rotateY(180deg);
   border-radius: 10px;
   box-shadow: 0 5px 15px 2px #000000;
+}
+.container .work-history .work-container #work1 .work1-inner .work1-back h3 {
+  border-bottom: 2px solid white;
 }
 @media (max-width: 500px) {
   .container .work-history .work-container #work1 {
@@ -701,7 +709,7 @@ p {
 footer {
   border: 2px solid white;
   border-radius: 8px;
-  background-color: #E8E8E8;
+  background-color: #ececec;
   box-shadow: 0 5px 5px 0px #303030;
   margin-top: 10px;
   margin-bottom: 10%;
